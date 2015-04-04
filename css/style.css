@@ -1,0 +1,311 @@
+/********************************************************************
+* GERAL
+*********************************************************************/
+body {
+	font-family: sans-serif;
+	background-color:#FBFF83;
+	background-image: linear-gradient(to right, rgba(255,255,255,.5) 1px, transparent 4px);
+	background-size: 4px 4px;
+}
+
+body ul {
+	list-style: none;
+}
+
+/********************************************************************
+* CONTAINER
+*********************************************************************/
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+
+/********************************************************************
+* MAIN-HEADER
+*********************************************************************/
+.main-header .container {
+	position: relative;
+	padding-top: 3px;
+}
+
+.logo {
+	width: 301px;
+	height: 86px;
+	display: inline-block;
+	text-indent: -99999px;
+	background-image: url(../img/ico/logo.png); 
+	
+}
+
+/********************************************************************
+* MAIN-NAV
+*********************************************************************/
+.main-nav{
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+
+.main-nav-item + .main-nav-item {
+	margin-left: 15px;
+}
+
+.main-nav-link {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main-nav-links:hover {
+	border-top: 5px solid #FF0D40;
+	border-bottom: 5px solid #FF0D40;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.main-nav-links {
+	overflow: hidden;
+	text-decoration: none;
+	color: #000000;
+}
+
+.main-nav-item {
+	float: left;
+}
+
+.main-nav-link.current {
+	
+}
+
+.ico-facebook {
+	background-image: url(../img/ico/ico-facebook.png);
+}
+
+.ico-instagram {
+	background-image: url(../img/ico/ico-instagram.png);
+}
+
+.socias:hover {
+	background-color: #FF0D40;
+}
+
+
+.main-nav-item.socias li {
+	display: inline-block;
+}
+
+.main-nav-item.socias a {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	text-indent: -99999px;
+}
+
+/********************************************************************
+* CARROSEL
+*********************************************************************/
+.main-carrosel {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+a,img {border: none;}
+
+.trs {-webkit-transition:all ease-out 0.5s;
+    -moz-transition:all ease-out 0.5s;
+    -o-transition:all ease-out 0.5s;
+    -ms-transition:all ease-out 0.5s;
+    transition:all ease-out 0.5s;}	
+
+#slider {position: relative; z-index: 1;}
+#slider a { position: absolute; top: 0; left: 0; opacity: 0;filter:alpha(opacity=0);}
+.ativo {opacity: 1!important; filter:alpha(opacity=100)!important;}
+ 
+/*controladores*/
+span {background: #FF0D40; cursor: pointer; opacity: 0;filter:alpha(opacity=0); position: absolute; bottom: 40%; width: 43px; height: 43px; z-index: 5;}
+
+.next {right: 300px;}
+.next:hover {background: rgba(255,255,255,.0)}
+
+.next:before,.next:after {left: 21px;}
+
+.next:before {
+    -webkit-transform: rotate(-42deg);
+    top: 5px;
+}
+
+.next:after {
+    -webkit-transform: rotate(-132deg);
+    box-shadow: 20px 22px 5px #000;
+    top: 19px;
+}
+
+.next:before,.next:after,.prev:before,.prev:after {content: "";
+    height: 20px;
+    background: #fff;
+    width: 1px;
+    position: absolute;
+}
+
+.prev {left: 300px;}
+.prev:hover {background: rgba(255,255,255,.0)}
+
+.prev:before,.prev:after {left: 18px;}
+.prev:before {
+    -webkit-transform: rotate(42deg);
+    top: 5px;
+}
+
+.prev:after {
+    -webkit-transform: rotate(132deg);
+    top: 19px;
+}
+ 
+figure:hover span {opacity: 0.76;filter:alpha(opacity=76);}
+
+figure {
+    /*max-width: 100%;*/
+    height: 434px;
+    position: relative;
+    overflow: hidden;    
+}
+
+#slider img {
+	width: 112%;
+}
+
+/*figure img {
+	position: relative;
+	left: 65px;
+}*/
+
+/*figcaption {padding-left: 20px;color: #fff; font-family: "Kaushan Script","Lato","arial"; font-size: 22px; background: rgba(1, 144, 238, 0.76); width: 100%; position: absolute; bottom: 0; left: 0; line-height: 55px; height: 55px; z-index: 5}*/
+
+
+
+/********************************************************************
+* HOMER DE SERVIÇOS
+*********************************************************************/
+
+section p {
+	background: rgba(255, 13, 64, 0.76); width: 142px; position: absolute; top: 95px; left: 4px; line-height: 30px; 	height: 30px; z-index: 5; 
+	color: #fff;
+}
+
+.box img {
+	width: 150px;
+	height: 150px;
+}
+
+.box { 
+  width: 150px;
+  position: relative;
+  float: left;
+  margin: .3em;
+}
+.inner-content {
+  background: #fff;
+  /*padding: .75em;*/
+  width: 150px;
+  height: 150px;
+}
+
+.border-top, .border-bottom {
+  width: 0%;
+  height: 3px;
+  background: #FF0D40;
+  position: absolute;
+  transition: all .3s ease;
+}
+
+.border-top { top: 0; left: 0; }
+.border-bottom { bottom: 0; right: 0; }
+.box:hover .border-top, 
+.box:hover .border-bottom {
+  width: 100%;
+}
+
+.border-right, .border-left {
+  width: 3px;
+  height: 0%;
+  background: #FF0D40;
+  position: absolute;
+  transition: all .3s ease .3s;
+
+} 
+
+.border-right { top: 0; right: 0; }
+.border-left { bottom: 0; left: 0; }
+.box:hover .border-right, 
+.box:hover .border-left {
+  height: 100%;
+}
+
+.servicos img {
+	width: 150px;
+	height: 150px;
+}
+
+.servicos {
+	padding-bottom: 30px;
+}
+/********************************************************************
+* FOOTER
+*********************************************************************/
+.rodape {
+	background-color: #FF0D40;
+	color: #f2fffc;
+	width: 100%;
+  position: relative;
+  float: left;
+}
+
+footer {
+	padding-top: 100px;
+	clear: both;	
+}
+
+.autorais-footer {
+	padding-top: 	13px;
+} 
+
+.menu-footer {
+	/*text-transform: uppercase;	*/
+}
+
+.menu-footer a {
+	text-decoration: none;
+	color: 	#fff;
+}
+
+.menu-footer-links:hover {
+	color: #000;
+}
+
+.criador {
+	width: 100%;
+	background-color: #FFF;
+	color: #fff;
+	display: inline-block;
+}
+
+.criador-link img {
+	width: 20px;	
+	height: 20px;	
+}
+
+.criador-link a {
+	position: relative;
+	left: 630px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+ .criador-link:hover {
+ 	background-color: #FF0D40;
+ }
+
+/*.criador:hover {
+	border: solid 1px;
+	color: 	#FF0D40;
+}*/
