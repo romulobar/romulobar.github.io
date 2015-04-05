@@ -278,6 +278,11 @@ footer {
 	color: 	#fff;
 }
 
+.error a {
+	text-decoration: none;
+	color: 	#FF0D40;
+}
+
 .menu-footer-links:hover {
 	color: #000;
 }
