@@ -3,7 +3,7 @@
   Learn more ~ http://960.gs/
 
   Licensed under GPL and MIT.
-*/
+  */
 
 /*
   Forces backgrounds to span full width,
@@ -11,11 +11,11 @@
   Increase this if your layout is wider.
 
   Note: IE6 works fine without this fix.
-*/
+  */
 
-body {
-  min-width: 960px;
-}
+  body {
+    min-width: 960px;
+  }
 
 /* `Container
 ----------------------------------------------------------------------------------------------------*/
@@ -644,10 +644,10 @@ body {
 /*
   The following zoom:1 rule is specifically for IE6 + IE7.
   Move to separate stylesheet if invalid CSS is a problem.
-*/
+  */
 
-.clearfix,
-.container_12,
-.container_16 {
-  zoom: 1;
-}
+  .clearfix,
+  .container_12,
+  .container_16 {
+    zoom: 1;
+  }
