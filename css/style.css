@@ -44,8 +44,8 @@ body ul {
 }
 
 .logo {
-	width: 94px;
-	height: 94px;
+	width: 150px;
+	height: 184px;
 	display: inline-block;
 	text-indent: -99999px;
 	background-image: url(../img/ico/logo.png); 
@@ -58,7 +58,7 @@ body ul {
 .main-nav{
 	position: absolute;
 	right: 0;
-	top: 30px;
+	top: 85px;
 }
 
 .main-nav-item + .main-nav-item {
