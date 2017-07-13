@@ -3,7 +3,7 @@
 *********************************************************************/
 body {
 	font-family: sans-serif;
-	background-color:#FBFF83;
+	background-color:#f1f1f6;
 	background-image: linear-gradient(to right, rgba(255,255,255,.5) 1px, transparent 4px);
 	background-size: 4px 4px;
 }
