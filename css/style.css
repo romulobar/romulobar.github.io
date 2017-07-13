@@ -480,3 +480,15 @@ td {
 	
 	text-decoration: none;
 }
+
+
+@media (min-width: 375px) {
+	.main-nav {
+		position: absolute;
+		right: 20px;
+	}
+
+	.main-nav-link {
+		font-size: 30px;
+	}
+}
