@@ -488,7 +488,7 @@ td {
 		right: 20px;
 	}
 
-	.main-nav-link {
+	.main-nav-link, body {
 		font-size: 30px;
 	}
 }
