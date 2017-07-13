@@ -491,4 +491,9 @@ td {
 	.main-nav-link, body {
 		font-size: 30px;
 	}
+	
+	
+	.descricao-sobre {
+		text-align: center;
+	}
 }
