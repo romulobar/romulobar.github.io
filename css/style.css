@@ -504,4 +504,11 @@ td {
 .grade-curso {
 	text-align: center;
 }
+	.logo {
+	width: 450px;
+	height: 189px;
+	display: inline-block;
+	text-indent: -99999px;
+	background-image: url(../img/ico/logo-nome.png); 
+}
 }
