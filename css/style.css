@@ -482,7 +482,7 @@ td {
 }
 
 
-@media (min-width: 375px) {
+@media (max-width: 1024px) {
 	.main-nav {
 		position: absolute;
 		right: 20px;
