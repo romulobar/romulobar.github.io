@@ -514,3 +514,8 @@ td {
 	background-image: url(../img/ico/logo-nome.png); 
 }
 }
+
+@media (min-width: 1024px)
+#slider img {
+    text-align: center;
+}
