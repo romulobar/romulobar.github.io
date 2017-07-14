@@ -188,8 +188,7 @@ figure {
 
 #slider img {
 	width: 100%;
-	height: 100%;
-	    padding-left: 50px;
+	height: 100%;	
 }
 
 /*figure img {
@@ -515,4 +514,8 @@ td {
 	text-indent: -99999px;
 	background-image: url(../img/ico/logo-nome.png); 
 }
+	#slider img {
+		    padding-left: 50px;
+	}
 }
+
