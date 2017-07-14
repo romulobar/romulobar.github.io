@@ -506,11 +506,6 @@ td {
 }
 }
 
-@media (min-width: 1024px) {
-#slider img {
-	margin-left: 110px;
-}
-
 .logo {
 	width: 450px;
 	height: 189px;
